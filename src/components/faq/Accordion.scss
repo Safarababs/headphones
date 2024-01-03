@@ -1,0 +1,116 @@
+.faq {
+  text-align: center;
+  padding: 30px;
+
+
+  p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+    .image {
+      flex: 0 0 calc(50% - 20px);
+
+      img {
+        width: 100%;
+        border-radius: 8px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+
+    .accordion-container {
+      flex: 0 0 calc(50% - 20px);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .accordion {
+        background-color: #3498db;
+        color: #34495e;
+        cursor: pointer;
+        padding: 18px;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        text-align: left;
+        outline: none;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+
+        button {
+          display: block;
+          width: 100%;
+          padding: 12px;
+          border: none;
+          background-color: #3498db;
+          color: white;
+          font-size: 1.7rem;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+    
+          &:hover {
+            background-color: #2980b9;
+          }
+        }
+
+        &.active,
+        &:hover {
+          background-color: #ecf0f1;
+          color: white;
+          border-color: #3498db;
+        }
+
+        &.active {
+          .panel {
+            max-height: 1000px; /* Adjust this value as needed */
+            transition: max-height 0.3s ease-out, opacity 0.3s ease;
+            opacity: 1;
+  
+            p {
+              font-size: 1.5rem;
+              color: #333;
+            }
+          }
+        }
+
+        .panel {
+          padding: 18px;
+          background-color: #fff;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.3s ease-out, opacity 0.3s ease;
+          opacity: 0;
+  
+          p {
+            margin: 0;
+            font-size: 0; /* Set font size to 0 to hide text initially */
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .box-container {
+      flex-direction: column;
+
+      .image,
+      .accordion-container {
+        flex: 1 1 100%;
+      }
+    }
+  }
+}
