@@ -5,11 +5,17 @@ const Footer = () => {
     <section className="footer">
       <div className="box-container">
         <div className="box">
-          <h3>why choose us?</h3>
+          <h3>Why Choose BeatUp?</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            libero ea repellendus aut commodi, sequi praesentium! Neque aliquam
-            excepturi quas.
+            Skip the ordinary, embrace the BeatUp. Don't settle for headphones
+            that cower at life's volume. Choose BeatUp, where rugged meets
+            rhythm, where durability dances with immersive sound. These aren't
+            just headphones, they're partners in your sonic adventures, built to
+            take a beating and keep pumping out anthems for your soul. Whether
+            you're scaling mountains or conquering concrete jungles, BeatUp
+            fuels your hustle with audio that rocks as hard as you do. Dive
+            deeper, push louder, experience sound that takes a beating and keeps
+            singing your story. Welcome to the BeatUp revolution.
           </p>
         </div>
 
@@ -42,7 +48,9 @@ const Footer = () => {
 
       <h1 className="credit">
         {" "}
-        created by <a href="https://safarababs.github.io/safarweb/">mr. safar abbas</a> | all rights reserved.{" "}
+        created by{" "}
+        <a href="https://safarababs.github.io/safarweb/">mr. safar abbas</a> |
+        all rights reserved.{" "}
       </h1>
     </section>
   );
