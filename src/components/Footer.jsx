@@ -15,12 +15,12 @@ const Footer = () => {
 
         <div className="box">
           <h3>quick links</h3>
-          <a href="#">home</a>
-          <a href="#">about</a>
-          <a href="#">features</a>
-          <a href="#">products</a>
-          <a href="#">contact</a>
-          <a href="#">FAQ</a>
+          <a href="https://safarababs.github.io/safarweb/">home</a>
+          <a href="https://safarababs.github.io/safarweb/">about</a>
+          <a href="https://safarababs.github.io/safarweb/">features</a>
+          <a href="https://safarababs.github.io/safarweb/">products</a>
+          <a href="https://safarababs.github.io/safarweb/">contact</a>
+          <a href="https://safarababs.github.io/safarweb/">FAQ</a>
         </div>
 
         <div className="box">
@@ -42,7 +42,7 @@ const Footer = () => {
 
       <h1 className="credit">
         {" "}
-        created by <a href="#">mr. safar abbas</a> | all rights reserved.{" "}
+        created by <a href="https://safarababs.github.io/safarweb/">mr. safar abbas</a> | all rights reserved.{" "}
       </h1>
     </section>
   );

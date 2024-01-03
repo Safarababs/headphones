@@ -11,7 +11,7 @@ const Home = () => {
           headphones are built tough, engineered for sound, and ready to
           soundtrack your every adventure.
         </p>
-        <a href="#">
+        <a href="https://safarababs.github.io/safarweb/">
           <button className="btn">order now</button>
         </a>
       </div>

@@ -9,7 +9,7 @@ function Header() {
     const currentScrollPos = window.scrollY;
     setPrevScrollPos(currentScrollPos);
     setIsMenuOpen(false)
-  }, [prevScrollPos]);
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);

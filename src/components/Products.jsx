@@ -16,28 +16,28 @@ const Products = () => {
         <h3>new headphones</h3>
         <img src={product1} alt="" />
         <span className="price">$50/-</span>
-        <a href="#"><button className="btn">buy now</button></a>
+        <a href="https://safarababs.github.io/safarweb/"><button className="btn">buy now</button></a>
     </div>
 
     <div className="box">
         <h3>new headphones</h3>
         <img src={product2} alt="" />
         <span className="price">$40/-</span>
-        <a href="#"><button className="btn">buy now</button></a>
+        <a href="https://safarababs.github.io/safarweb/"><button className="btn">buy now</button></a>
     </div>
 
     <div className="box">
         <h3>new headphones</h3>
         <img src={product3} alt="" />
         <span className="price">$60/-</span>
-        <a href="#"><button className="btn">buy now</button></a>
+        <a href="https://safarababs.github.io/safarweb/"><button className="btn">buy now</button></a>
     </div>
 
     <div className="box">
         <h3>new headphones</h3>
         <img src={product4} alt="" />
         <span className="price">$55/-</span>
-        <a href="#"><button className="btn">buy now</button></a>
+        <a href="https://safarababs.github.io/safarweb/"><button className="btn">buy now</button></a>
     </div>
 
 </div>
